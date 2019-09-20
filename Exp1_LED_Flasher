@@ -1,0 +1,17 @@
+Void setup
+{ 
+for(i=1;i<4;i++)
+{
+pinMode(i,OUTPUT);
+}
+}
+Void loop
+{
+for(i=0;i<4;i++)
+{
+DigitalWrite(i,HIGH);
+Delay(300);
+DigitalWrite(i,LOW);
+Delay(300);
+}
+}
