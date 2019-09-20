@@ -10,8 +10,11 @@ Void loop
 for(i=1;i<4;i++)
 {
 DigitalWrite(i,HIGH);
-Delay(300);
-DigitalWrite(i,LOW);
-Delay(300);
 }
+Delay(300);
+for(i=1;i<4;i++)
+{
+DigitalWrite(i,LOW);
+}
+Delay(300);
 }
